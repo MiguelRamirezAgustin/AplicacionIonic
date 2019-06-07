@@ -1,1 +1,48 @@
+ion-conten{
+    --backgraund:rgb(189, 185, 185);
+}
+.accordion-list{
+    margin-bottom: 4px;
+    --ion-item-backgraund:blue;
+    .section, .section-active{
+        --min-height:58px;
+    }
+}
 
+.section{
+    --ion-item-backgraund:rgba(255, 255, 255, 0.753);
+    --ion-item-color:#000
+}
+
+.section-active{
+    --ion-item-backgraund:#ffc400;
+    --ion-item-color:rgba(255, 255, 255, 0.822);
+    font-weight: 600;
+
+    ion-icon{
+        color:rgb(223, 21, 21);
+    }
+}
+
+.child-list{
+    padding: 0px;
+    margin: 0px;
+    .child, .child-active{
+        margin-bottom: 2px;
+    }
+}
+
+
+.child{
+  --ion-item-background:#f7be85;
+  --ion-item-color:rgb(252, 162, 162);
+
+  ion-icon{
+      color:write;
+  }
+}
+
+.product-list{
+    padding: 0px;
+    margin: 0px
+}

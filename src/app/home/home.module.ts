@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
+import { CharedComponentsModule } from '../components/chared-components.module';
 
 @NgModule({
   imports: [
@@ -16,7 +17,9 @@ import { HomePage } from './home.page';
         path: '',
         component: HomePage
       }
-    ])
+    ]),
+    //importacion 
+    CharedComponentsModule
   ],
   declarations: [HomePage]
 })

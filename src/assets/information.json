@@ -2,59 +2,99 @@
 
     "items":[
         {
-            "name":"special",
+            "name":"Lunes",
                 "children":[
                     {
-                        "name":"pizza dominos 1",
-                        "information":"informacion de pizza",
+                        "name":"Nota del dia lunes ",
+                        "information":"Oposición exige publicar en Gaceta CdMx cambios sobre desalojos https://www.milenio.com/cdmx",
                         "price":"30"
                     },
                     {
-                        "name":"pizza dominos",
-                        "information":"informacion de pizza dos" ,
+                        "name":"Uniforme neutro es para dar libertad a niñas: Sheinbaum https://www.milenio.com/cdmx",
+                        "information":"La jefa de Gobierno dijo que el programa permite a los niños llevar falda si quieren, pero éste se hizo para dar a las niñas “más libertades para correr, https://www.milenio.com/cdmx" ,
                         "price":"40"
                     }
                 ]
 
         },
         {
-            "name":"pizza",
+            "name":"Martes",
                 "children":[
                     {
-                        "name":"pizza dominos 2",
-                        "information":"informacion de pizza 4",
+                        "name":"Lluvia colapsa el Metro; hay retrasos en 10 líneas https://www.milenio.com/cdmx",
+                        "information":"Diez de las 12 líneas del Sistema de Transporte Colectivo tienen máxima afluencia de usuarios. https://www.milenio.com/cdmx",
                         "price":"50"
                     },
                     {
-                        "name":"pizza dominos 3",
-                        "information":"informacion de pizza dos 6" ,
+                        "name":"El sábado estaremos con AMLO en BCS: Sheinbaum https://www.milenio.com/cdmx",
+                        "information":"La jefa de Gobierno informó que en la reunión con alcaldes mexicanos y de Estados Unidos, se hablará de temas como migración, cambio climático, medio ambiente, movilidad, entre otros temas. https://www.milenio.com/cdmx" ,
                         "price":"60"
                     }
                 ]
         },
         {
-            "name":"pizza",
+            "name":"Miercoles",
                 "children":[
                     {
-                        "name":"pizza dominos 6",
-                        "information":"informacion de pizza 6",
-                        "price":"60"
+                        "name":"Partido mexico ",
+                        "information":"Pumas 3 / 1 Chivas",
+                        "price":"finalizado"
                     },
                     {
-                        "name":"pizza dominos 7",
-                        "information":"informacion de pizza dos 7" ,
-                        "price":"70"
+                        "name":"Partido mexico ",
+                        "information":"Atlas 0 / Monterrey" ,
+                        "price":"finalizado"
                     }
                     ,
                     {
-                        "name":"pizza dominos 8",
-                        "information":"informacion de pizza dos 8" ,
-                        "price":"80"
+                        "name":"Partido mexico ",
+                        "information":"Tigres 1 / 8 Puebla" ,
+                        "price":"finalizado"
                     },
                     {
-                        "name":"pizza dominos 9",
-                        "information":"informacion de pizza dos 9" ,
-                        "price":"90"
+                        "name":"Partido mexico ",
+                        "information":"Pachuca 2 / 3 Santos" ,
+                        "price":"finalizado"
+                    }
+                ]
+        },
+        {
+            "name":"Jueves",
+                "children":[
+                    {
+                        "name":"Circuito Interior y Ermita Iztapalapa, anegadas tras lluvias",
+                        "information":"Se activó la alerta naranja por el pronóstico de caída de granizo en Iztacalco, Iztapalapa y Venustiano Carranza. https://www.milenio.com/cdmx",
+                        "price":"60"
+                    },
+                    {
+                        "name":"Bandera de San Jerónimo se desgarra por fuertes vientos",
+                        "information":"Elementos de la Secretaría de Seguridad Ciudadana recogieron los restos del lábaro patrio que cayeron sobre la glorieta. https://www.milenio.com/cdmx" ,
+                        "price":"70"
+                    }
+                ]
+        },
+        {
+            "name":"Viernes",
+                "children":[
+                    {
+                        "name":"Datos ejemplo 1",
+                        "information":"informacion 1",
+                        "price":"Datos para mostrar 01"
+                    },
+                    {
+                        "name":"Datos ejemplo 2",
+                        "information":"informacion 2" ,
+                        "price":"Datos para mostrar 02"
+                    }
+                ]
+        },
+        {
+            "name":"Sabado y domingo ",
+                "children":[
+                    {
+                        "name":" ",
+                        "information":"",
+                        "price":" "
                     }
                 ]
         }
