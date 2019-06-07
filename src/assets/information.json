@@ -1,0 +1,63 @@
+{
+
+    "items":[
+        {
+            "name":"special",
+                "children":[
+                    {
+                        "name":"pizza dominos 1",
+                        "information":"informacion de pizza",
+                        "price":"30"
+                    },
+                    {
+                        "name":"pizza dominos",
+                        "information":"informacion de pizza dos" ,
+                        "price":"40"
+                    }
+                ]
+
+        },
+        {
+            "name":"pizza",
+                "children":[
+                    {
+                        "name":"pizza dominos 2",
+                        "information":"informacion de pizza 4",
+                        "price":"50"
+                    },
+                    {
+                        "name":"pizza dominos 3",
+                        "information":"informacion de pizza dos 6" ,
+                        "price":"60"
+                    }
+                ]
+        },
+        {
+            "name":"pizza",
+                "children":[
+                    {
+                        "name":"pizza dominos 6",
+                        "information":"informacion de pizza 6",
+                        "price":"60"
+                    },
+                    {
+                        "name":"pizza dominos 7",
+                        "information":"informacion de pizza dos 7" ,
+                        "price":"70"
+                    }
+                    ,
+                    {
+                        "name":"pizza dominos 8",
+                        "information":"informacion de pizza dos 8" ,
+                        "price":"80"
+                    },
+                    {
+                        "name":"pizza dominos 9",
+                        "information":"informacion de pizza dos 9" ,
+                        "price":"90"
+                    }
+                ]
+        }
+
+    ]
+}
