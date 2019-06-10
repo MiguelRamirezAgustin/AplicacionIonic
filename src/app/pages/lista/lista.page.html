@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-toolbar color="pruebas">
+    <ion-buttons slot="start">
+      <ion-menu-button class="btns"></ion-menu-button>
+    </ion-buttons>
+    <ion-title color="pruebasTitulo">inspecciones</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list *ngFor="let m of informacion; let i = index">
+    <ion-list-header justify-content-center>
+      <ion-label justify-content-center class="labelT" *ngIf="fechaActua === m.fecha">Hoy</ion-label>
+    </ion-list-header>
+    <div class="dovContenedor">
+      <ion-label class="fecha">{{m.fecha}}</ion-label>
+      <p class="titulo">{{m.tareas[0].centro}}</p>
+
+
+      <ion-grid *ngIf="ocultar2(i)" >
+        <ion-row align-items-start size="3" >
+
+          <ion-col >
+            <ion-label class="subtitulos">Fecha de inspeccion </ion-label>
+            <br>
+            <ion-label class="subtitulosDatos">{{m.tareas[0].tipo}}</ion-label>
+            <!-- {{m.tareas[1].materiaAbreviatura}} -->
+          </ion-col>
+
+          <ion-col>
+            <ion-label class="subtitulos">Tipo </ion-label>
+            <br>
+            <ion-label class="subtitulosDatos">{{m.tareas[0].tipo}}</ion-label>
+          </ion-col>
+
+          <ion-col>
+            <ion-label class="subtitulos">Materia</ion-label>
+            <br>
+            <ion-label class="subtitulosDatos">{{m.tareas[0].materiaAbreviatura}}</ion-label>
+          </ion-col>
+
+        </ion-row>
+        <ion-row>
+          <ion-col>
+              <ion-label class="subtitulos">Domicilio </ion-label>
+              <br>
+              <ion-label class="subtitulosDatos">{{m.tareas[0].domicilio}}</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-label class="verMapa">VER EN MAPAS</ion-label>
+          </ion-col>
+          <ion-col></ion-col>
+          <ion-col></ion-col>
+
+          <ion-col class="imgC">
+            <img start="end" (click)="detalle(i)" src="/assets/flecha.png">
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+
+
+
+    </div>
+
+  </ion-list>
+
+</ion-content>

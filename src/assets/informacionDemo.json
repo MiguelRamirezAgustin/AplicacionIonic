@@ -1,0 +1,119 @@
+{
+  "jsonFicha":[
+  {
+    "fecha":"10/06/2019",
+    "tareas":[
+      {
+        "centro":"Bimbo del pacífico, S.A. de C.V.",
+        "tipo":"Extraordinaria",
+        "materiaAbreviatura":"CGT",
+        "materiaCompleto":"Condiciones Generales de Trabajo",
+        "domicilio":"20 de Noviembre s/n Esq. Calle Hidalgo, Col. Centro, CP 34420, Durango, Durango",
+        "ubicacion":{
+          "latitude":19.384956,
+          "longitude":-99.186653
+        },
+        "expediente":"20000/60000",
+        "alcance":"especifico",
+        "citatorio":"no",
+        "idDocAgenerar":2,
+        "preFormsdata":[]
+      },
+      {
+        "centro":"Bimbo2 del pacífico, S.A. de C.V.",
+        "tipo":"Extraordinaria",
+        "materiaCompleto":"Condiciones Generales de Trabajo",
+        "domicilio":"20 de Noviembre s/n Esq. Calle Hidalgo, Col. Centro, CP 34420, Mazatlan, Mazatlan",
+        "ubicacion":{
+          "latitude":18.387202,
+          "longitude":-99.171540
+        },
+        "expediente":"20000/60000",
+        "alcance":"especifico",
+        "citatorio":"no",
+        "idDocAgenerar":2,
+        "preFormsdata":[]
+      }
+    ]
+  },
+  {
+    "fecha":"30/05/2019",
+    "tareas":[
+      {
+        "centro":"Carnes selectas La Fortuna S.A. de C.V.",
+        "tipo":"Extraordinaria",
+        "materiaAbreviatura":"CGT",
+        "materiaCompleto":"Condiciones Generales de Trabajo",
+        "domicilio":"20 de Noviembre s/n Esq. Calle Hidalgo, Col. Centro, CP 34420, Zacatecas, Zacatecas",
+        "ubicacion":{
+          "latitude":19.384956,
+          "longitude":-99.186653
+        },
+        "expediente":"20000/60000",
+        "alcance":"especifico",
+        "citatorio":"no",
+        "idDocAgenerar":2,
+        "preFormsdata":[]
+      }
+    ]
+  },
+  {
+    "fecha":"20/06/2019",
+    "tareas":[
+      {
+        "centro":"Carnes selectas La Fortuna S.A. de C.V.",
+        "tipo":"Extraordinaria",
+        "materiaAbreviatura":"CGT",
+        "materiaCompleto":"Condiciones Generales de Trabajo",
+        "domicilio":"20 de Noviembre s/n Esq. Calle Hidalgo, Col. Centro, CP 34420, Puebla, Puebla",
+        "ubicacion":{
+          "latitude":19.384956,
+          "longitude":-99.186653
+        },
+        "expediente":"20000/60000",
+        "alcance":"especifico",
+        "citatorio":"no",
+        "idDocAgenerar":2,
+        "preFormsdata":[]
+      }
+    ]
+  },
+  {
+    "fecha":"31/05/2019",
+    "tareas":[
+      {
+        "centro":"Pitaya Studio, S.A. de C.V.",
+        "tipo":"Extraordinaria",
+        "materiaAbreviatura":"CGT",
+        "materiaCompleto":"Condiciones Generales de Trabajo",
+        "domicilio":"10 de Octubre # 3  Esq. Calle Juarez, Col. Centro, CP 67253, Mexico, Mexico",
+        "ubicacion":{
+          "latitude":19.387202,
+          "longitude":-99.171540
+        },
+        "expediente":"20000/60000",
+        "alcance":"especifico",
+        "citatorio":"no",
+        "idDocAgenerar":2,
+        "preFormsdata":[]
+      },
+      {
+        "centro":"Trabajos de preprensa Tohui,S.S.S.",
+        "tipo":"Extraordinaria",
+        "materiaAbreviatura":"CGT",
+        "materiaCompleto":"Condiciones Generales de Trabajo",
+        "domicilio":"20 de Noviembre s/n Esq. Calle Hidalgo, Col. Centro, CP 34420, Pachuca, Pachuca",
+        "ubicacion":{
+          "latitude":19.384956,
+          "longitude":-99.186653
+        },
+        "expediente":"20000/60000",
+        "alcance":"especifico",
+        "citatorio":"no",
+        "idDocAgenerar":2,
+        "preFormsdata":[]
+      }
+    ]
+  }
+]
+}

@@ -29,6 +29,8 @@ toggleSection(index){
  }
 }
 
+
+
 toggleitem(index, childIndex){
   this.information[index].children[childIndex].open = !this.information[index].children //open
 }

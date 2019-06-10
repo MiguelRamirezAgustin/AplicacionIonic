@@ -6,12 +6,12 @@
                 "children":[
                     {
                         "name":"Nota del dia lunes ",
-                        "information":"Oposición exige publicar en Gaceta CdMx cambios sobre desalojos https://www.milenio.com/cdmx",
+                        "information":"Oposición exige publicar en Gaceta CdMx cambios sobre desalojos ",
                         "price":"30"
                     },
                     {
-                        "name":"Uniforme neutro es para dar libertad a niñas: Sheinbaum https://www.milenio.com/cdmx",
-                        "information":"La jefa de Gobierno dijo que el programa permite a los niños llevar falda si quieren, pero éste se hizo para dar a las niñas “más libertades para correr, https://www.milenio.com/cdmx" ,
+                        "name":"Uniforme neutro es para dar libertad a niñas: Sheinbaum",
+                        "information":"La jefa de Gobierno dijo que el programa permite a los niños llevar falda si quieren " ,
                         "price":"40"
                     }
                 ]
@@ -21,13 +21,13 @@
             "name":"Martes",
                 "children":[
                     {
-                        "name":"Lluvia colapsa el Metro; hay retrasos en 10 líneas https://www.milenio.com/cdmx",
-                        "information":"Diez de las 12 líneas del Sistema de Transporte Colectivo tienen máxima afluencia de usuarios. https://www.milenio.com/cdmx",
+                        "name":"Lluvia colapsa el Metro; hay retrasos en 10 líneas ",
+                        "information":"Diez de las 12 líneas del Sistema de Transporte Colectivo tienen máxima afluencia de usuarios.",
                         "price":"50"
                     },
                     {
-                        "name":"El sábado estaremos con AMLO en BCS: Sheinbaum https://www.milenio.com/cdmx",
-                        "information":"La jefa de Gobierno informó que en la reunión con alcaldes mexicanos y de Estados Unidos, se hablará de temas como migración, cambio climático, medio ambiente, movilidad, entre otros temas. https://www.milenio.com/cdmx" ,
+                        "name":"El sábado estaremos con AMLO en BCS: Sheinbaum ",
+                        "information":"La jefa de Gobierno informó que en la reunión con alcaldes mexicanos y de Estados Unidos, " ,
                         "price":"60"
                     }
                 ]
@@ -63,12 +63,12 @@
                 "children":[
                     {
                         "name":"Circuito Interior y Ermita Iztapalapa, anegadas tras lluvias",
-                        "information":"Se activó la alerta naranja por el pronóstico de caída de granizo en Iztacalco, Iztapalapa y Venustiano Carranza. https://www.milenio.com/cdmx",
+                        "information":"Se activó la alerta naranja por el pronóstico de caída de granizo en Iztacalco, Iztapalapa y Venustiano Carranza",
                         "price":"60"
                     },
                     {
                         "name":"Bandera de San Jerónimo se desgarra por fuertes vientos",
-                        "information":"Elementos de la Secretaría de Seguridad Ciudadana recogieron los restos del lábaro patrio que cayeron sobre la glorieta. https://www.milenio.com/cdmx" ,
+                        "information":"Elementos de la Secretaría de Seguridad Ciudadana recogieron los restos del lábaro patrio que cayeron sobre la glorieta." ,
                         "price":"70"
                     }
                 ]
@@ -101,3 +101,6 @@
 
     ]
 }
+
+
+

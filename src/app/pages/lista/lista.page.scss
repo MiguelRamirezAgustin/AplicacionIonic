@@ -1,0 +1,61 @@
+
+
+ .btns {
+      color: rgb(246, 244, 248);
+  }
+
+  .fecha{
+    font-size: 15px 
+  }
+
+  .titulo{
+      font-size: 17px;
+  }
+  ion-content{
+      --background:rgb(250, 250, 250);
+      padding: 3%
+  }
+
+  .dovContenedor{
+    background-color:#fff;
+      padding: 3%;
+      width:auto;
+      height: 15%;
+      left: 5%;
+      border-radius: 2%
+  }
+
+  ion-list-header{
+    --background:rgba(241, 241, 241, 0.966);
+    width:auto;
+    height: 2%;
+    border-radius: 1%
+  }
+
+  .labelT{
+      color: black;
+      font-size: 12px;
+      text-align: center;
+  }
+  .verMapa{
+      color: red;
+      font-size: 9px;
+
+  }
+
+  img{
+    width: 20%;
+    height: 80%;
+  }
+  
+  .imgC{
+    align-self:flex-end
+  }
+
+  .subtitulos{
+    font-size: 12px;
+  }
+
+  .subtitulosDatos{
+    font-size: 10px;
+  }

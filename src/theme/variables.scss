@@ -74,4 +74,25 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+}
+
+
+.ion-color-pruebas {
+  --ion-color-base: rgb(248, 12, 12);
+  --ion-color-base-rgb: rgb(247, 14, 14);
+  --ion-color-contrast: rgb(241, 11, 11);
+  --ion-color-contrast-rgb: rgb(241, 8, 8);
+  --ion-color-shade: rgb(241, 6, 6);
+  --ion-color-tint: rgb(243, 8, 8);
+}
+
+
+.ion-color-pruebasTitulo {
+  --ion-color-base: rgb(255, 255, 255);
+  --ion-color-base-rgb: rgb(255, 255, 255);
+  --ion-color-contrast: rgb(255, 255, 255);
+  --ion-color-contrast-rgb: rgb(255, 255, 255);
+  --ion-color-shade: rgb(255, 255, 255);;
+  --ion-color-tint: rgb(255, 255, 255);
 }
