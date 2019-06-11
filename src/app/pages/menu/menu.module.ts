@@ -19,11 +19,7 @@ const routes: Routes = [
        {
          path: 'lista',
          loadChildren: '../lista/lista.module#ListaPageModule'
-       },
-       {
-        path: 'mapa',
-        loadChildren: '../mapa/mapa.module#MapaPageModule'
-      }
+       }
     ]
   }
 ];
