@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-lista',
@@ -11,7 +12,7 @@ export class ListaPage implements OnInit {
   informacion:any;
   ocultar1: null ;
  
-
+ valor='nombre'
   fechaActua:any;
 
   // fechaActual= new Date().getDay() + '/' + new Date().getMonth() + '/' +new Date().getFullYear();
@@ -38,7 +39,9 @@ export class ListaPage implements OnInit {
     
   }
 
-  constructor(public http:HttpClient) {
+  constructor(public http:HttpClient,public router:Router, ) {
+    
+    this.router.navigate(['/mapa', this.valor])
     // this.http.get('/assets/information.json').subscribe(resultado=>{
     // this.inforomacion= resultado;
     // console.log('Informacion Json ', this.inforomacion);
@@ -81,7 +84,15 @@ export class ListaPage implements OnInit {
   }
 
 
+  verMapa(){
+     console.log('login');
+     this.router.navigateByUrl('/mapa');
+   }
+
 }
+
+
+
 
 
 // showHideButtons(i) {

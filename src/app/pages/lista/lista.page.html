@@ -12,7 +12,7 @@
 
   <ion-list *ngFor="let m of informacion; let i = index">
     <ion-list-header justify-content-center>
-      <ion-label justify-content-center class="labelT" *ngIf="fechaActua === m.fecha">Hoy</ion-label>
+      <ion-label justify-content-center class="labelT" *ngIf="fechaActua === m.fecha;">Hoy</ion-label>
     </ion-list-header>
     <div class="dovContenedor">
       <ion-label class="fecha">{{m.fecha}}</ion-label>
@@ -55,7 +55,7 @@
       <ion-grid>
         <ion-row>
           <ion-col>
-            <ion-label class="verMapa">VER EN MAPAS</ion-label>
+            <ion-label class="verMapa" (click)="verMapa()">VER EN MAPAS</ion-label>
           </ion-col>
           <ion-col></ion-col>
           <ion-col></ion-col>
