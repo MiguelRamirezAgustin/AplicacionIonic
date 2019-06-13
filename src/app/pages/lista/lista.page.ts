@@ -40,8 +40,6 @@ export class ListaPage implements OnInit {
   }
 
   constructor(public http:HttpClient,public router:Router, ) {
-    
-    this.router.navigate(['/mapa', this.valor])
     // this.http.get('/assets/information.json').subscribe(resultado=>{
     // this.inforomacion= resultado;
     // console.log('Informacion Json ', this.inforomacion);

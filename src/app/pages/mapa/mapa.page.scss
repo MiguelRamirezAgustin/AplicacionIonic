@@ -1,35 +1,33 @@
 
-.map {  
+.mapa_Ubicacion {  
       width: auto;
-      height: 75%;
-      border: 1px solid rgb(37, 194, 241);
-      border-radius: 2%;
+      height:70%;
+      border: 0px solid rgb(255, 32, 32);
+      border-radius: 1%;
       border-width: 5%;
 }
 
 
 #map_canvas {  
       width: auto;
-      height: 75%;
-      border: 1px solid rgb(37, 194, 241);
-      border-radius: 2%;
+      height: 70%;
+      border: 0px solid rgb(255, 32, 32);
+      border-radius: 1%;
       border-width: 5%;
 }
 
 
+ion-input{
+  background:rgb(238, 232, 232);
+  width: 90%;
+  color: black
+}
 
+.iconos{
+  width: 32px;
+  height: 32px;
+}
 
-ion-content{
-      background: rgb(229, 227, 223);
-      #map {
-        width: auto;
-         height: 75%;
-        display: block;
-        border: 1px solid rgb(255, 32, 32);
-        border-radius: 2%;
-        border-width: 5%;
-        &.show-map{
-          opacity: 1;
-        }
-      }
-    }
+ion-title{
+  color:#fff;
+}

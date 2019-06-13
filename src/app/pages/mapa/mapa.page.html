@@ -1,19 +1,42 @@
 <ion-header>
-  <ion-toolbar>
-      <ion-buttons slot="start" color="pruebas">
-          <ion-back-button ></ion-back-button>
+  <ion-toolbar color="pruebas">
+      <ion-buttons slot="start"  color="ubicacion">
+          <ion-back-button color="ubicacion"></ion-back-button>
       </ion-buttons>
-    <ion-title>Ubicacion</ion-title>
+    <ion-title>Mapa</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content >
-  <!-- <div id="map_canvas" >
+<ion-content>
+  
+   <ion-grid padding>
 
-  </div> -->
+     <ion-row align-items-center>
+       <ion-col >
+         <ion-input placeholder="Ubicacion"  [(ngModel)]="ubicacion" > 
+           <ion-icon name="locate" slot="start" color="ubicacion" ></ion-icon>
+          </ion-input>
+       </ion-col>
+       <ion-col size="1" align-self-start>
+           <ion-icon name="search" (click)="MostrarMapa()"  color="ubicacion"  class="iconos"></ion-icon> 
+       </ion-col>
+     </ion-row>
 
-  <div id="map">
+     <ion-row align-items-center>
+       <ion-col >
+          <ion-input placeholder="Destino" [(ngModel)]="destinationPosition" > 
+            <ion-icon name="pin" slot="start"  color="ubicacion" ></ion-icon>
+          </ion-input  >
+       </ion-col>
+       <ion-col size="1"  align-self-start>
+          <ion-icon name="trending-down" color="ubicacion" (click)="calculateRoute()"  class="iconos"></ion-icon>
+       </ion-col>
+      </ion-row>
+      
+   </ion-grid>
+
+  <div class="mapa_Ubicacion" #map_canvas id="map_canvas">
+     
   </div>
-
 
 </ion-content>
